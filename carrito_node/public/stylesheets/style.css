@@ -1,0 +1,57 @@
+:root{
+  --primario: #e23939;
+  --gris-claro: #b8b8b8;
+  --gris-oscuro: #808080;  
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;  
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn{
+  border-radius: 20px;
+  background-color: #91C612;
+  border: none;
+}
+
+.btn:hover{
+  border-radius: 20px;
+  background-color: #7cb101;
+  border: none;
+}
+
+.card-title{
+  color: var(--gris-oscuro);
+}
+
+.precio{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stock{
+  font-weight: bold;
+  color: var(--gris-oscuro);  
+}
+
+.textos{
+  color: var(--gris-claro);
+}
+
+.logo{
+  max-width: 150px;
+  
+}

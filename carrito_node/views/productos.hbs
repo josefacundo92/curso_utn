@@ -1,0 +1,22 @@
+<section class="productos">
+    <div class="container">
+        <h1 class="text-center">{{title}}</h1>
+
+        <div class="row justify-content-center mt-5">
+            {{#each productos}}
+
+                <div class="col-md-4 col-10 pb-4">
+                    <div class="card text-center">
+                        <img src="/images/{{imagen}}" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">{{nombre}}</h5>
+                            <p class="precio">${{precio}}</p>                            
+                            <a href="/productos/{{id}}" class="btn btn-primary">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+
+            {{/each}}
+
+        </div>
+</section>
